@@ -1,0 +1,7 @@
+find . -type f -print0 | xargs -I'{}' -0 rename -a ' ' '_' "{}"
+find . -type f -print0 | xargs -I'{}' -0 rename -a ',' '' "{}"
+find . -type f -print0 | xargs -I'{}' -0 rename -a '(' '' "{}"
+find . -type f -print0 | xargs -I'{}' -0 rename -a ')' '' "{}"
+find . -type f -print0 | xargs -I'{}' -0 rename -a '&' 'And' "{}"
+find . -type f -print0 | xargs -I'{}' -0 rename -a '___' '_-_' "{}"
+#bad#better-to-use-custom#regex#find . -type f -print0 | xargs -I'{}' -0 #bad#rename -a '.' 'Dot' "{}"#bad#
