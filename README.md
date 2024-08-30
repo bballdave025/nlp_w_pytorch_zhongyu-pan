@@ -4,9 +4,10 @@ This is my own work for the LinkedIn Course,
 _Natural Language Processing with PyTorch_,
 taugh by Zhongyou Pan. The URL for the course is
 
-https://www.linkedin.com/learning/natural-language-processing-with-pytorch/ `#popular-topics-in-nlp`
+https://www.linkedin.com/learning/natural-language-processing-with-pytorch/ 
+`#popular-topics-in-nlp`
 
-## Fun Extras
+## Fun Extras (Most for Later)
 
 ### AI Coding Helped (LLM)
 
