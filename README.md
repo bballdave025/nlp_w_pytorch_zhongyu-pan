@@ -4,22 +4,59 @@ This is my own work for the LinkedIn Course,
 _Natural Language Processing with PyTorch_,
 taugh by Zhongyou Pan. The URL for the course is
 
-https://www.linkedin.com/learning/natural-language-processing-with-pytorch/ 
-`#popular-topics-in-nlp`
+https://www.linkedin.com/learning/natural-language-processing-with-pytorch/
 
-## Fun Extras (Most for Later)
+## Navigation - Get the Notebook from Different Places for Different Uses
 
-### AI Coding Helped (LLM)
+### (Navigation for the main presentation notebook)
+
+[Google CoLab on my Google Drive](https://colab.research.google.com/drive/1PKkdbNcqUfV0sHCosWZf3JdF6F3kGoj7?usp=sharing) - A place to see all inputs 
+and outputs for the notebook, though you can't edit it without re-saving it.
+
+<br/>
+
+[GitHub Repo (link to be put in, soon)](#https://github.com/bballdave025/nlp_w_pytorch_zhongyu-pan) - Code repository: a place to see the latest changes as well as the Jupyter Notebooks completed earlier
+
+<br/>
+
+[GitHub Notebook File (link to be put in, soon)](#) - I don't think this
+is as useful as the repo, but you can see the IPYNB file placeholder. 
+This file will only have input - I scrub the output before committing
+any updates, because it's easier to do `diff`s (see changes in code)
+on Jupyter Notebooks when you don't have the outputs.
+
+<br/>
+
+[On MyBinder (link to be put in, soon)](#) - A place to interact with the notebook, where you'll be led to the notebook without output and can
+run the code and see the results yourself.<br/>
+A note, [MyBinder](https://mybinder.org) is a great online project which allows you to interactively run a Jupyter notebook completely online. It's nice to have when you'd like to play with code and better see the outputs that come from running that code. I've had some problems with images going down, but I'm going to work to keep this one up and running for access.
+
+## Fun Extras
+
+### AI Coding Help (LLM)
 
 To make this course interesting, I'm using the AI Coding
-Helper that Google CoLab provides. I think that means
+Helper that Google CoLab provides. <strike>I think that means
 it's CoPilot, but it might just be some version of
-Gemini (which was BERT, before). That teaches me some
-prompt engineering, which I'll attempt to show (in cells
-that you can minimize).
+Gemini (which was BERT, before).</strike> All I found
+was a 
+[warning page](https://support.google.com/legal/answer/13505487) 
+([archived](https://web.archive.org/web/20240824034012/https://support.google.com/legal/answer/13505487))
+which had the words, "Generative Code Assistance".
+Using it has taught me some 
+prompt engineering. I have different notebooks for that. My plan
+is to put them in Google CoLab notebooks to allow easy viewing,
+though I might also put them in a folder with other/previous
+versions. <strike>I'll attempt to show it (in cells
+that you can minimize).</strike> I don't know hoe it will
+be organized.
+
+The main notebooks might show a few cells where things are
+shown, but probably not too many.
 
 ### Network visualizations
 
+<b>&lt; not-priority &gt;</b>
 I want to visualize the network I'll build, as well as
 some other networks I'll discuss
 
@@ -30,10 +67,15 @@ some other networks I'll discuss
 
 ## Coding with an AI Helper and Prompt Engineering.
 
+This is discussed in the AI Coding Help section, above.
+But there's useful stuff here.
 Here will be something like the way I show my attempts,
 their output, and (when necessary) the things I had
 to change to match what was in the Notebooks shared by
 Zhongyou Pan in her lesson notebooks.
+This will be in other notebooks, probably found
+most conspicuously as CoLab notebooks in my
+Google Drive.
 
 ` --- information coming --- `
 
