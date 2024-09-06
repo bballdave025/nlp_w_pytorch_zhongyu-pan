@@ -42,7 +42,7 @@ and outputs for the notebook, though you can't edit it without re-saving it.
 
 <br/>
 
-[GitHub Repo](#https://github.com/bballdave025/nlp_w_pytorch_zhongyu-pan) - 
+[GitHub Repo](https://github.com/bballdave025/nlp_w_pytorch_zhongyu-pan) - 
 Code repository: a place to see the latest changes as well as the Jupyter 
 Notebooks completed on my way to the current version.
 
