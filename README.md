@@ -1,21 +1,50 @@
 # nlp_w_pytorch_zhongyu-pan
 
+# The Main Project - a CNN for Text Classification
+
+## The Course
+
 This is my own work for the LinkedIn Course,
 _Natural Language Processing with PyTorch_,
 taugh by Zhongyou Pan. The URL for the course is
 
 https://www.linkedin.com/learning/natural-language-processing-with-pytorch/
 
+I had some nice motivation for this, which you can learn about in the
+[Extra motivation](#Extra-motivation) section.
+
+## The Project aka My Starting Point
+
+A good, quick synopsis is the one that will follow - some notes I wrote
+while watching the first lecture.
+
+> We use PyTorch and a Convolutional Neural Network (using NLP features
+> rather than the pixel position features we use with image processing) to 
+> do our text classification.
+>
+> `Input -> Convolution -> Pooling -> ... -> Fully-connected layer -> Output`
+>
+> 
+> We are also learning about RNNs. RNN doesn't only pass data forward, but also
+> feeds the data back into itself. CNN only goes forward. RNN can remember
+> context before and after words in a sequence. It's usually slower that a CNN.
+
+
+(I guess I can use the chevron quotes to quote my notes. Well, I did.)
+
 ## Navigation - Get the Notebook from Different Places for Different Uses
 
 ### (Navigation for the main presentation notebook)
 
-[Google CoLab on my Google Drive](https://colab.research.google.com/drive/1PKkdbNcqUfV0sHCosWZf3JdF6F3kGoj7?usp=sharing) - A place to see all inputs 
+[Google CoLab on my Google Drive](https://colab.research.google.com/drive/1PKkdbNcqUfV0sHCosWZf3JdF6F3kGoj7?usp=sharing) - 
+A place to see all inputs 
 and outputs for the notebook, though you can't edit it without re-saving it.
 
 <br/>
 
-[GitHub Repo](#https://github.com/bballdave025/nlp_w_pytorch_zhongyu-pan) - Code repository: a place to see the latest changes as well as the Jupyter Notebooks completed earlier
+[GitHub Repo](#https://github.com/bballdave025/nlp_w_pytorch_zhongyu-pan) - 
+Code repository: a place to see the latest changes as well as the Jupyter 
+Notebooks completed on my way to the current version.
 
 <br/>
 
@@ -27,9 +56,15 @@ on Jupyter Notebooks when you don't have the outputs.
 
 <br/>
 
-[On MyBinder (link to be put in, soon)](#) - A place to interact with the notebook, where you'll be led to the notebook without output and can
+[On MyBinder (link to be put in, soon)](#) - A place to interact with 
+the notebook, where you'll be led to the notebook without output and can
 run the code and see the results yourself.<br/>
-A note, [MyBinder](https://mybinder.org) is a great online project which allows you to interactively run a Jupyter notebook completely online. It's nice to have when you'd like to play with code and better see the outputs that come from running that code. I've had some problems with images going down, but I'm going to work to keep this one up and running for access.
+A note, [MyBinder](https://mybinder.org) is a great online project 
+which allows you to interactively run a Jupyter notebook, completely 
+online. It's nice to have when you'd like to play with code and better 
+see the outputs that come from running that code. I've had some 
+problems with images going down, but I'm going to work to keep 
+this one up and running for access.
 
 ## Fun Extras
 
@@ -56,14 +91,21 @@ shown, but probably not too many.
 
 ### Network visualizations
 
-<b>&lt; not-priority &gt;</b>
+<b>&lt;not-priority&gt;</b>
+
 I want to visualize the network I'll build, as well as
 some other networks I'll discuss
 
+<b>&lt;/not-priority&gt;</b>
 
 ## NLP topics and their Jupyter Notebooks
 
+<b>&lt;not-priority&gt;</b>
+
 ` --- information coming --- `
+
+<b>&lt;/not-priority&gt;</b>
+
 
 ## Coding with an AI Helper and Prompt Engineering.
 
@@ -78,9 +120,6 @@ most conspicuously as CoLab notebooks in my
 Google Drive.
 
 ` --- information coming --- `
-
-
-# The Main Project - a CNN for Text Classification
 
 
 ## Extra motivation
