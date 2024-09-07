@@ -1,0 +1,12 @@
+name: linkedin-nlp-pytorch-zhongyu-pan
+channels:
+  - defaults
+dependencies:
+  - python=3.10.14
+  - pip=24.0
+  - pip:
+      - jupyter==1.1.1
+      - numpy==1.26.4
+      - torch==2.4.1
+      - torchtext==0.18.0
+prefix: C:\Users\bballdave025\.conda\envs\linkedin-nlp-pytorch-zhongyu-pan
