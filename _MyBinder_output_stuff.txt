@@ -1,0 +1,61 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bballdave025/nlp_w_pytorch_zhongyu-pan/main?labpath=PyTorch_CNN_Text__LinkedIn_NLP.ipynb)
+
+
+
+```
+---
+PyTorch Version:     1.9.0+cu102
+---
+Torch Text Version:  0.10.0
+---
+Thrown was:
+ > AttributeError: module 'random' has no attribute '__version__'
+That's what I suspected. 'random' is built-in,
+and thus doesn't have a '__version__' attribute.
+---
+numpy version:       1.26.0
+---
+---
+Python version: 3.9.19 (main, May  6 2024, 19:43:03) 
+[GCC 11.2.0]
+```
+
+
+# # I won't need this anymore, from MyBinder
+#!python -VVV
+#!date +"%Y-%m-%dT%H%M%S%z"
+
+
+
+!pip install "spacy<3"
+!python -m spacy download en_core_web_sm
+
+
+
+import spacy
+# 1. #needs CoLab#TEXT = data.Field(tokenize='spacy', lower=True)
+# 2. #does not work#spacy_eng = spacy.load("en_core_web_sm")
+# 2. #does not work#TEXT = data.Field(tokenize=spacy_eng, lower=True)
+# 3. ok#TEXT = data.Field(tokenize=data.get_tokenizer("basic_english"), lower=True)
+# 4. ok# https://stackoverflow.com/questions/59479523/torch-use-of-spacy-strange-errors-w-standard-dataset
+# 4. ok#from spacy.tokenizer import Tokenizer
+# 4. ok#nlp = spacy.load("en_core_web_sm")
+# 4. ok#tokenizer = Tokenizer(nlp.vocab)
+# 4. ok#def spacy_tokenize(x):
+# 4. ok#    return [tok.text for tok in tokenizer(x)]
+# 4. ok#TEXT = data.Field(tokenize=spacy_tokenize, lower=True)
+# 5. ok#TEXT = data.Field(tokenize=None, lower=True)
+
+# I'll use 4
+from spacy.tokenizer import Tokenizer
+nlp = spacy.load("en_core_web_sm")
+tokenizer = Tokenizer(nlp.vocab)
+def spacy_tokenize(x):
+    return [tok.text for tok in tokenizer(x)]
+##endof:  def spacy_tokenize(x)
+
+TEXT = data.Field(tokenize=spacy_tokenize, lower=True)
+LABEL = data.LabelField()
+
+
+
