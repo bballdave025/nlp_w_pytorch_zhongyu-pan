@@ -1,5 +1,7 @@
 # nlp_w_pytorch_zhongyu-pan
 
+### Text Classification Using a CNN (not the standard, but interesting)
+
 # The Main Project - a CNN for Text Classification
 
 ## The Course
